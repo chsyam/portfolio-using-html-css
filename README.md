@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning **Django**
 
-- 📫 How to reach me **syamkumar6845@gmail.com**
+- 📫 How to reach me **chsyamkumar.in**
 
 - 📄 Know about my experiences [chsyamkumar.in/Resume.pdf](chsyamkumar.in/Resume.pdf)
 
