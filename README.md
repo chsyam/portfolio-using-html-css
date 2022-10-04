@@ -1,10 +1,9 @@
-# portfolio-website
 <h1 align="center">Hi 👋, I'm Syam Kumar Chintakayala</h1>
 <h3 align="center">A passionate web developer & Data Analyst</h3>
 
 - 🌱 I’m currently learning **Django**
 
-- 📫 How to reach me **chsyamkumar.in**
+- 📫 How to reach me **https://chsyamkumar.in/**
 
 - 📄 Know about my experiences [chsyamkumar.in/Resume.pdf](chsyamkumar.in/Resume.pdf)
 
