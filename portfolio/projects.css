@@ -1,0 +1,13 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.projects {
+  margin: 4% 3%;
+}
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text {
+  text-align: left;
+}
