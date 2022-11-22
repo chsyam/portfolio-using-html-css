@@ -12,41 +12,6 @@
     <script src="https://kit.fontawesome.com/f0423e0b21.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <style>
-        * {
-            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        }
-
-        .image img {
-            width: 250px;
-            margin: 10% 0;
-            box-shadow: 2px 2px 10px black;
-            border-radius: 10px;
-            height: 250px;
-        }
-
-        .col {
-            height: 80vh;
-            width: 400px;
-            border-radius: 15px;
-            text-align: center;
-            margin: 3% 1%;
-            border: 1px solid black;
-            box-shadow: 2px 2px 10px black;
-        }
-
-        .card {
-            border: none;
-        }
-
-        .card-body {
-            height: 200px;
-            scroll-behavior: smooth;
-            overflow-y: scroll;
-            scrollbar-width: none;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -62,6 +27,11 @@
                 <span class="extra"> Ch</span>
             </label>
             <ul>
+                <div class="times">
+					<label for="check" class="times_btn">
+						<i class="fas fa-times"></i>
+					</label>
+				</div>
                 <li><a href="index.html">About</a></li>
                 <li><a href="skills.html">Education & Skills</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -70,164 +40,152 @@
             </ul>
         </nav>
     </div>
-    <div class="projects">
-        <div class="title">
-            <h2>Cirtifications</h2>
-            <hr>
+    <div class="box">
+        <div class="sec-head">
+            <h2>Certifications</h2>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="image">
-                        <img src="Pictures/nptel.jpg" class="card-img-top" alt="...">
-                    </div>
-                    <h3 class="card-title">Programming, Data Structures and Algorithms using Python</h3>
-                    <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis
-                            animi eum minima iure quos voluptatibus, dolor consectetur sed incidunt delectus magni ipsam
-                            illum repudiandae mollitia perspiciatis rem. Inventore, laudantium?Lorem ipsum dolor sit
-                            amet consectetur adipisicing elit. Corporis quasi consequuntur accusamus unde, molestiae,
-                            voluptates architecto sequi iure ab placeat id, magnam itaque illum eveniet numquam possimus
-                            commodi excepturi! Quaerat.
-                        </p>
-                    </div>
-                    <div class="card-footer foot">
-                        <div class="link"><a
-                                href="https://www.linkedin.com/in/syam-kumar-chintakayala-639850196/details/certifications/"
-                                target="_blank"><i class="bi bi-linkedin"></i>
-                            </a>
-                        </div>
-                        <div class="link">
-                            <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS26S44481592NPTEL2201092986"
-                                target="_blank"><i class="bi bi-browser-chrome"></i>
-                            </a>
-                        </div>
-                    </div>
+        <div class="projects">
+            <div class="items">
+                <div class="item">
+                    <table>
+                        <thead>
+                            <tr><th colspan="4">Programming, Data Structures and Algorithms using Python</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4">
+                                    <img height="150" src="Pictures/nptel_cirtificate.png" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a target="_blank" href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS26S44481592NPTEL2201092986"><i class="bi bi-arrows-angle-expand"></i></a>
+                                </td>
+                                <td>
+                                    <a href="https://in.linkedin.com/in/syam-kumar-chintakayala-639850196" target="_blank"><i class="bi bi-linkedin"></i>
+                                </td>
+                                <td>
+                                     <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS26S44481592NPTEL2201092986" target="_blank">
+                                        <i class="bi bi-browser-chrome"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="image">
-                        <img src="Pictures/udemy.png" class="card-img-top" alt="...">
-                    </div>
-                    <h3 class="card-title">The Ultimate MySQL Bootcamp : Go From SQL Beginner to Expert</h3>
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer foot">
-                        <div class="link"><a
-                                href="https://www.linkedin.com/in/syam-kumar-chintakayala-639850196/details/certifications/"
-                                target="_blank"><i class="bi bi-linkedin"></i></a></div>
-                        <div class="link"><a
-                                href="https://www.udemy.com/certificate/UC-e8628b69-f43e-4a69-a54e-8aaeb0072c55/"
-                                target="_blank"><i class="bi bi-browser-chrome"></i></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="image">
-                        <img src="Pictures/coursera.png" class="card-img-top" alt="...">
-                    </div>
-                    <h3 class="card-title">HTML, CSS, Javascript for Web Developers</h3>
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer foot">
-                        <div class="link"><a
-                                href="https://www.linkedin.com/in/syam-kumar-chintakayala-639850196/details/certifications/"
-                                target="_blank"><i class="bi bi-linkedin"></i></a></div>
-                        <div class="link"><a href="https://in.coursera.org/account/accomplishments/verify/7LWCPUYKVRYV"
-                                target="_blank"><i class="bi bi-browser-chrome"></i></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="image">
-                        <img src="Pictures/eYantra.png" class="card-img-top" alt="...">
-                    </div>
-                    <h3 class="card-title">Dairy Bike | eYRC 2021-22</h3>
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer foot">
-                        <div class="link"><a
-                                href="https://www.youtube.com/watch?v=5HIlILD5M3U&list=PLEZtyC48ICxNo5vxTgDw6R5Seq6-tthc3"
-                                target="_blank"><i class="bi bi-youtube"></i></a></div>
-                        <div class="link"><a
-                                href="https://www.linkedin.com/in/syam-kumar-chintakayala-639850196/details/certifications/"
-                                target="_blank"><i class="bi bi-linkedin"></i></a></div>
-                        <div class="link"><a
-                                href="http://certificate.e-yantra.org/validate/030309b1d89071aa42398d9ca2a833ede1521f9b"
-                                target="_blank"><i class="bi bi-browser-chrome"></i></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="image">
-                        <img src="Pictures/1stop.jpg" class="card-img-top" alt="...">
-                    </div>
-                    <h3 class="card-title">Industrial Program in Web Development | 1stop</h3>
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer foot">
-                        <div class="link"><a
-                                href="https://www.linkedin.com/in/syam-kumar-chintakayala-639850196/details/certifications/"
-                                target="_blank"><i class="bi bi-linkedin"></i></a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="acheivements">
-            <div class="title">
-                <h2>Acheivements</h2>
-                <hr>
-            </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <div class="image">
-                            <img src="Pictures/eYantra.png" class="card-img-top" alt="...">
-                        </div>
-                        <h3 class="card-title"> e-YRC</h3>
-                        <div class="card-body">
-                            <p class="card-text">-- Secured 4th rank among 243 teams</p>
-                        </div>
-                        <div class="card-footer foot">
-                            <div>
-                                <a href="https://www.youtube.com/watch?v=5HIlILD5M3U&list=PLEZtyC48ICxNo5vxTgDw6R5Seq6-tthc3"
-                                    target="_blank"><i class="bi bi-youtube"></i></a>
-                            </div>
-                            <div>
-                                <a href="https://www.linkedin.com/in/syam-kumar-chintakayala-639850196/details/certifications/"
+                <div class="item">
+                    <table>
+                        <thead>
+                            <tr><th colspan="4">The Ultimate MySQL Bootcamp : Go From SQL Beginner to Expert</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4">
+                                    <img height="150" src="Pictures/mysql_cirtificate.jpg" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Pictures/mysql_cirtificate_large.pdf" target="_blank"><i class="bi bi-arrows-angle-expand"></i></a>
+                                </td>
+                                <td>
+                                    <a href="https://in.linkedin.com/in/syam-kumar-chintakayala-639850196"
                                     target="_blank"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                            <div>
-                                <a href="http://certificate.e-yantra.org/validate/030309b1d89071aa42398d9ca2a833ede1521f9b"
+                                </td>
+                                <td>
+                                    <a href="https://www.udemy.com/certificate/UC-e8628b69-f43e-4a69-a54e-8aaeb0072c55/"
                                     target="_blank"><i class="bi bi-browser-chrome"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="item">
+                    <table>
+                        <thead>
+                            <tr><th colspan="4">HTML, CSS, Javascript for Web Developers</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4">
+                                    <img height="150" src="Pictures/coursera_cirtificate.jpg" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Pictures/coursera_cirtificate.jpg" target="_blank"><i class="bi bi-arrows-angle-expand"></i></a>
+                                </td>
+                                <td>
+                                    <a href="https://in.linkedin.com/in/syam-kumar-chintakayala-639850196"
+                                        target="_blank"><i class="bi bi-linkedin"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://in.coursera.org/account/accomplishments/verify/7LWCPUYKVRYV"
+                                        target="_blank"><i class="bi bi-browser-chrome"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="item">
+                    <table>
+                        <thead>
+                            <tr><th colspan="4">Dairy Bike | eYRC 2021-22</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4">
+                                    <img height="150" src="Pictures/e-Yantra_cirtificate.jpg" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="Pictures/e-Yantra.pdf" target="_blank"><i class="bi bi-arrows-angle-expand"></i></a>
+                                </td>
+                                <td>
+                                    <a href="https://in.linkedin.com/in/syam-kumar-chintakayala-639850196"
+                                    target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </td>
+                                <td>
+                                    <a href="https://www.youtube.com/watch?v=5HIlILD5M3U&list=PLEZtyC48ICxNo5vxTgDw6R5Seq6-tthc3"
+                                    target="_blank"><i class="bi bi-youtube"></i></a>
+                                </td>
+                                <td>
+                                    <a href="http://certificate.e-yantra.org/validate/030309b1d89071aa42398d9ca2a833ede1521f9b"
+                                    target="_blank"><i class="bi bi-browser-chrome"></i></a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="item">
+                    <table>
+                        <thead>
+                            <tr><th colspan="4">Industrial Program in Web Development | 1stop</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4">
+                                    <img height="150" src="Pictures/1stop_ai.jpg" alt="">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a target="_blank" href="Pictures/1stop_ai.jpg"><i class="bi bi-arrows-angle-expand"></i></a>
+                                </td>
+                                <td>
+                                    <a href="https://in.linkedin.com/in/syam-kumar-chintakayala-639850196" target="_blank">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-
 </html>

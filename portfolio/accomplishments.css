@@ -1,24 +1,53 @@
+.sec-head {
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:rgb(0, 102, 255);
+  background: #76b852;
+  background: -webkit-linear-gradient(to right, #8DC26F, #76b852);
+  background: linear-gradient(to right, #8DC26F, #76b852);
+  text-align: center;
+}
 .projects {
-  margin: 2%;
-  text-align: center;
-  justify-content: space-evenly;
+  margin:3%;
 }
-.acheivements .row,
-.projects .row {
-  margin: auto;
-  text-align: center;
+.projects .items{
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.acheivements {
-  margin: 2% 3%;
+.projects .items .item{
   text-align: center;
+  margin:10px 20px 40px 15px;
+  width: 350px;
+  height: min-content;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px black;
 }
-.foot {
-  display: flex;
-  justify-content: space-evenly;
+.item table thead th{
+  font-size: 24px;
+  font-family:'Times New Roman', Times, serif;
+  color:black;
+  text-shadow: 1px 1px 1px black;
+  font-weight: lighter;
+  display: table-cell;
+  vertical-align:middle;
+  box-shadow: 2px 2px 8px black;
 }
-.title {
-  margin: 0 15%;
-  font-weight: bold;
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    width: 380px;
+}
+.item table img{
+  box-shadow: 1px 1px 10px black;
+  border-radius: 5px;
+  margin: 20px;
+}
+.item table tr:nth-child(2) {
+  border-top:1px solid black;
+  height:50px;
+}
+.item table tr:nth-child(1) {
+  height:90px;
 }
