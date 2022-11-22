@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **https://chsyamkumar.in/**
 
-- 📄 Know about my experiences [chsyamkumar.in/Resume.pdf](chsyamkumar.in/Resume.pdf)
+- 📄 Know about my experiences **https://chsyamkumar.in/Resume.pdf**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
